@@ -49,6 +49,9 @@
 #pragma once
 
 namespace win32 {
+#ifndef ERROR
+#define ERROR 0
+#endif
   const auto ERROR_ = ERROR;
 #undef ERROR
   const auto ERROR = ERROR_;
